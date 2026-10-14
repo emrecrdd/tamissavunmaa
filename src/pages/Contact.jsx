@@ -29,7 +29,7 @@ export default function Contact() {
         accent="iletişime geçin"
         copy="Kurumsal iletişim ve genel bilgi talepleri için TAMİS Teknoloji ile iletişime geçebilirsiniz."
         media="TAMİS / ANKARA"
-        mediaSrc="/media/real/iletisim.png"
+        mediaSrc="/media/real/iletisim.webp"
         portrait
       />
 

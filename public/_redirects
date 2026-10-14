@@ -1,1 +1,6 @@
-/*    /index.html   200
+https://www.tamisteknoloji.com.tr/* https://tamisteknoloji.com.tr/:splat 301!
+https://tamisteknoloji.netlify.app/* https://tamisteknoloji.com.tr/:splat 301!
+/urunler /yetkinlikler 301
+/urunler/* /yetkinlikler 301
+/teknolojiler /yetkinlikler 301
+/* /404.html 404

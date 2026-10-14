@@ -59,7 +59,7 @@ export default function Media() {
             {...reveal}
             className="media relative min-h-[500px] overflow-hidden md:min-h-[720px]"
           >
-            <img
+            <img width="500" height="240" loading="lazy" decoding="async"
               src="/media/generated/kurumsal-10.jpg"
               alt="TAMİS üretim sahasında talaşlı imalat"
               className="absolute inset-0 h-full w-full object-cover"
@@ -94,7 +94,7 @@ export default function Media() {
               {...reveal}
               className="media relative min-h-[430px] overflow-hidden md:col-span-7 md:min-h-[620px]"
             >
-              <img
+              <img width="384" height="409" loading="lazy" decoding="async"
                 src="/media/generated/kurumsal-01.jpg"
                 alt="TAMİS üretim sahasında üniversal tornalama"
                 className="absolute inset-0 h-full w-full object-cover"
@@ -118,7 +118,7 @@ export default function Media() {
               className="flex min-h-[430px] flex-col md:col-span-5 md:min-h-[620px]"
             >
               <div className="media relative min-h-0 flex-1 overflow-hidden">
-                <img
+                <img width="384" height="409" loading="lazy" decoding="async"
                   src="/media/generated/kurumsal-03.jpg"
                   alt="TAMİS talaşlı imalat üretim detayı"
                   className="absolute inset-0 h-full w-full object-cover"

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 export const reveal = {
-  initial:{opacity:0,y:24}, whileInView:{opacity:1,y:0}, viewport:{once:true,amount:.14},
+  initial:false, whileInView:{opacity:1,y:0}, viewport:{once:true,amount:.14},
   transition:{duration:.72,ease:[.16,1,.3,1]}
 };
 

@@ -74,7 +74,8 @@ export default function Home() {
               </h1>
 
               <p className="copy mt-9 border-t rule pt-7">
-                4140 ve 8620 kalite çelikler ile alüminyum esaslı çap
+                Ankara Kahramankazan’daki tesisimizde CNC talaşlı imalat ve
+                derin delme hizmetleri sunuyoruz. 4140 ve 8620 kalite çelikler ile alüminyum esaslı çap
                 malzemelerde, farklı çap gereksinimlerine yönelik derin
                 karot delme işlemleri gerçekleştiriyoruz.
               </p>
@@ -93,7 +94,7 @@ export default function Home() {
                 {...reveal}
                 className="media relative min-h-[420px] overflow-hidden md:min-h-[520px]"
               >
-                <img
+                <img width="960" height="1375" fetchPriority="high" loading="eager" decoding="async"
                   src="/media/real/islenmis-parca.jpeg"
                   alt="TAMİS işlenmiş parça"
                   className="absolute inset-0 h-full w-full object-cover"
@@ -111,8 +112,8 @@ export default function Home() {
                 {...reveal}
                 className="media relative min-h-[420px] overflow-hidden md:min-h-[520px]"
               >
-                <img
-                  src="/media/real/universal-torna.jpeg"
+                <img width="1126" height="1481" loading="eager" decoding="async"
+                  src="/media/real/universal-torna.webp"
                   alt="TAMİS derin karot delme ve üniversal tornalama"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
@@ -327,8 +328,8 @@ export default function Home() {
           <div className="grid gap-12 lg:grid-cols-12 lg:items-stretch">
 
             <div className="media min-h-[520px] lg:col-span-7">
-              <img
-                src="/media/real/cnc-isleme.jpeg"
+              <img width="900" height="1600" loading="lazy" decoding="async"
+                src="/media/real/cnc-isleme.webp"
                 alt="TAMİS CNC talaşlı imalat"
                 className="absolute inset-0 h-full w-full object-cover"
               />
@@ -487,8 +488,8 @@ export default function Home() {
 
               {/* MOBİL — FOTOĞRAFIN TAMAMI GÖRÜNÜR */}
               <div className="relative lg:hidden">
-                <img
-                  src="/media/generated/kurumsal-09.jpg"
+                <img width="1056" height="360" loading="lazy" decoding="async"
+                  src="/media/generated/kurumsal-09.webp"
                   alt="TAMİS Teknoloji"
                   className="block h-auto w-full"
                 />
@@ -502,8 +503,8 @@ export default function Home() {
 
               {/* MASAÜSTÜ */}
               <div className="relative hidden min-h-[500px] lg:block">
-                <img
-                  src="/media/generated/kurumsal-09.jpg"
+                <img width="1056" height="360" loading="lazy" decoding="async"
+                  src="/media/generated/kurumsal-09.webp"
                   alt="TAMİS Teknoloji"
                   className="absolute inset-0 h-full w-full object-cover"
                 />

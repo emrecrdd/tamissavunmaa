@@ -69,7 +69,7 @@ export default function Research() {
             {...reveal}
             className="media relative min-h-[480px] min-w-0 overflow-hidden lg:col-span-6 lg:min-h-0"
           >
-            <img
+            <img width="384" height="409" fetchPriority="high" loading="eager" decoding="async"
               src="/media/generated/kurumsal-04.jpg"
               alt="TAMİS tarafından işlenmiş metal parça"
               className="absolute inset-0 h-full w-full object-cover"
@@ -184,8 +184,8 @@ export default function Research() {
               {...reveal}
               className="media relative min-h-[520px] overflow-hidden lg:col-span-7"
             >
-              <img
-                src="/media/generated/kurumsal-11.jpg"
+              <img width="1600" height="800" loading="lazy" decoding="async"
+                src="/media/generated/kurumsal-11.webp"
                 alt="TAMİS CNC talaşlı imalat süreci"
                 className="absolute inset-0 h-full w-full object-cover"
               />

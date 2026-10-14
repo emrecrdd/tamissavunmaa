@@ -95,7 +95,7 @@ export default function Careers() {
               {...reveal}
               className="media relative min-h-[420px] overflow-hidden lg:col-span-7 lg:min-h-[620px]"
             >
-              <img
+              <img width="384" height="409" loading="lazy" decoding="async"
                 src="/media/generated/kurumsal-06.jpg"
                 alt="TAMİS üretim sahası"
                 className="absolute inset-0 h-full w-full object-cover"

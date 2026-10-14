@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 import Container from "./Container";
 
 export const reveal = {
-  initial: {
-    opacity: 0,
-    y: 28,
-  },
+  initial: false,
   whileInView: {
     opacity: 1,
     y: 0,
@@ -29,6 +26,7 @@ export function Hero({
   copy,
   media,
   mediaSrc,
+  mediaAlt = "",
   videoSrc,
   portrait = false,
 }) {
@@ -92,7 +90,7 @@ export function Hero({
           {!videoSrc && mediaSrc && (
             <img
               src={mediaSrc}
-              alt=""
+              alt={mediaAlt} decoding="async" fetchPriority="high"
               className={`absolute inset-0 h-full w-full object-cover ${
                 portrait
                   ? "object-[center_38%]"

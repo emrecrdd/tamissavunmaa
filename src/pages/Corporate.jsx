@@ -77,8 +77,8 @@ export default function Corporate() {
           {...reveal}
           className="relative w-full overflow-hidden bg-ink"
         >
-          <img
-            src="/media/generated/kurumsal-09.jpg"
+          <img width="1056" height="360" loading="eager" fetchPriority="high" decoding="async"
+            src="/media/generated/kurumsal-09.webp"
             alt="TAMİS Teknoloji Ankara üretim tesisi"
             className="block h-auto w-full"
           />
@@ -114,14 +114,14 @@ export default function Corporate() {
                 <span className="h-px w-10 bg-ink/40" />
               </div>
 
-              <h2 className="mt-8 text-5xl font-medium leading-[.94] tracking-[-.055em] md:text-6xl">
+              <h1 className="mt-8 text-5xl font-medium leading-[.94] tracking-[-.055em] md:text-6xl">
                 Sanayi tecrübesi
                 <br />
 
                 <span className="text-green">
                   Sürekli gelişim
                 </span>
-              </h2>
+              </h1>
             </div>
 
             <div className="grid gap-8 lg:col-span-7 md:grid-cols-2">
@@ -157,8 +157,8 @@ export default function Corporate() {
             {...reveal}
             className="relative min-h-[520px] overflow-hidden"
           >
-            <img
-              src="/media/generated/kurumsal-misyon.jpg"
+            <img width="1600" height="800" loading="lazy" decoding="async"
+              src="/media/generated/kurumsal-misyon.webp"
               alt="TAMİS hassas üretim"
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -196,8 +196,8 @@ export default function Corporate() {
             {...reveal}
             className="relative min-h-[520px] overflow-hidden border-t rule lg:border-l lg:border-t-0"
           >
-            <img
-              src="/media/generated/kurumsal-vizyon.jpg"
+            <img width="1600" height="800" loading="lazy" decoding="async"
+              src="/media/generated/kurumsal-vizyon.webp"
               alt="TAMİS hassas işlenmiş parça"
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -387,7 +387,7 @@ export default function Corporate() {
                     key={partner.name}
                     className="group relative flex min-h-[180px] items-center justify-center overflow-hidden border-b border-r rule bg-white p-8"
                   >
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={partner.logo}
                       alt={`${partner.name} logo`}
                       className="max-h-16 max-w-[78%] object-contain grayscale opacity-65 transition duration-500 group-hover:grayscale-0 group-hover:opacity-100"
@@ -414,8 +414,8 @@ export default function Corporate() {
 
       {/* RAKAMLARLA TAMİS */}
       <section className="relative overflow-hidden bg-ink py-20 text-white md:py-24">
-        <img
-          src="/media/generated/kurumsal-rakamlar.jpg"
+        <img width="1600" height="800" loading="lazy" decoding="async"
+          src="/media/generated/kurumsal-rakamlar.webp"
           alt=""
           className="absolute inset-0 h-full w-full object-cover opacity-30"
         />
